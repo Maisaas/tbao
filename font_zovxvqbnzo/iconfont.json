@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7524619",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e770",
+      "unicode_decimal": 59248
+    },
+    {
+      "icon_id": "9304574",
+      "name": "有好货-01",
+      "font_class": "youhaohuo-",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "13213056",
+      "name": "聚划算",
+      "font_class": "juhuasuan",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "14283356",
+      "name": "淘宝购物车",
+      "font_class": "gouwuche",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "16161081",
+      "name": "下拉箭头",
+      "font_class": "xialajiantou",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "17282821",
+      "name": "收藏夹",
+      "font_class": "shoucangjia-copy",
+      "unicode": "e503",
+      "unicode_decimal": 58627
+    },
+    {
+      "icon_id": "19845493",
+      "name": "收藏夹",
+      "font_class": "shoucangjia",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    }
+  ]
+}

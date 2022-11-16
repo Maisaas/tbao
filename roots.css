@@ -1,0 +1,531 @@
+.root {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    height: 5000px;
+    background-color: rgb(232, 221, 220);
+    z-index: 0;
+}
+
+/* 设置一个公共类，flex布局 */
+.autox {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-content: flex-start;
+    box-sizing: border-box;
+}
+
+.autoy {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-content: flex-start;
+    box-sizing: border-box;
+}
+
+.father {
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: skyblue; */
+}
+
+/* ------------------------------------------------ */
+.sonnav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    /* background-color: white; */
+    width: 1190px;
+    height: 112px;
+}
+
+.au {
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.shugang {
+    height: 55px;
+    border-left: 2px solid #ff5f00;
+    width: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.diming {
+    width: 50px;
+    height: 64px;
+}
+
+.dimings {
+    display: block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ff5f00;
+}
+
+.zhojian {
+    justify-content: center;
+    align-items: center;
+}
+
+#sousuo {
+    border-radius: 50px;
+    width: 600px;
+    height: 44px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+}
+
+.buttonsosuo {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 73px;
+    height: 34px;
+    right: 13px;
+    top: 5px;
+    background-color: red;
+    border-radius: 50px;
+}
+
+.links {
+    justify-content: space-around;
+}
+
+.links a {
+    padding-right: 14px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+}
+
+.er {
+    width: 600px;
+    margin-top: 14px;
+    justify-content: space-around;
+}
+
+/* ------------------------------------------------ */
+.topic {
+    justify-content: space-between;
+    /* background-color: yellow; */
+    width: 1190px;
+    height: 570px;
+}
+
+.onetop {
+    justify-content: space-between;
+    width: 860px;
+    height: 570px;
+    background-color: white;
+    border-radius: 18px;
+}
+
+.leftonetop {
+    width: 190px;
+}
+
+.onetophead {
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.topheads {
+    font-size: 16px;
+    color: #ff5200;
+}
+
+.onetoptopic {
+    margin-top: 10px;
+    justify-content: space-around;
+    justify-content: flex-start;
+    height: 520px;
+}
+
+.liebiao {
+    width: 670px;
+    height: 525px;
+    display: none;
+    border-radius: 12px;
+    flex-direction: row;
+    border: 2px solid #ff5000;
+    background: #fff;
+    position: absolute;
+    padding-bottom: 20px;
+    z-index: 10;
+    left: 190px;
+    top: 40px;
+}
+
+.liebiaoleft {
+    position: relative;
+    align-items: flex-start;
+    width: 390px;
+    height: 510px;
+    padding: 20px;
+    border-right: 1px solid #f4f4f4;
+    overflow: auto;
+}
+
+.liebiaoleft>a {
+    margin-top: 15px;
+}
+
+#az {
+    justify-content: flex-start;
+    /* align-content: space-around; */
+    flex-wrap: wrap;
+}
+
+#az>span {
+    margin-right: 10px;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.liebiaoright {
+    align-items: flex-start;
+    position: relative;
+    width: 280px;
+    height: 525px;
+    padding: 20px;
+}
+
+.imgz {
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ccc;
+    width: 250px;
+    height: 456px;
+}
+
+.imgz img {
+    width: 110px;
+    height: 110px;
+}
+
+.imgz>div {
+    justify-content: center;
+    align-items: center;
+}
+
+.onetoptopic a {
+    height: 36px;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.twotop {
+    align-items: flex-start;
+    width: 310px;
+    height: 570px;
+    background-color: white;
+    border-radius: 18px;
+}
+
+.twotop>div:nth-child(1) {
+    padding-top: 40px;
+    background: url('sucai/bj2.png');
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 200px;
+}
+
+.twotop>div:nth-child(1)>div:nth-child(1) {
+    justify-content: center;
+    align-items: center;
+}
+
+.twotop>div:nth-child(1)>div:nth-child(2) {
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.twotop>div:nth-child(1)>div:nth-child(3) {
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.twotop>div:nth-child(1)>div:nth-child(3)>div>a:nth-child(1) {
+    width: 84px;
+    height: 34px;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 4px;
+}
+
+.twotop>div:nth-child(1)>div:nth-child(3)>div>a:nth-child(2) {
+    border: 1px solid red;
+    width: 120px;
+    height: 34px;
+    text-decoration: none;
+    color: red;
+    font-size: 14px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.twotop>div:nth-child(2) {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 30px 0 20px 20px;
+    color: #333;
+}
+
+.twotop>div:nth-child(3) {
+    padding: 0 10px;
+    justify-content: space-around;
+    width: 310px;
+    height: 284px;
+}
+
+.twotop>div:nth-child(3)>div {
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    height: 48px;
+}
+
+.rightonetop {
+    justify-content: flex-start;
+    width: 670px;
+}
+
+.righthead {
+    height: 40px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.righthead span {
+    width: 76px;
+    height: 20px;
+}
+
+.righttopic {
+    height: 260px;
+}
+
+.righttopicson {
+    width: 640px;
+    height: 260px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.rightbottom {
+    justify-content: space-between;
+    margin-top: 5px;
+    width: 640px;
+    height: 224px;
+}
+
+.leftbottomnav,
+.rightbottomnav {
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    width: 315px;
+    height: 224px;
+}
+
+.leftbottomnav>div:nth-child(2) {
+    align-items: flex-end;
+    width: 315px;
+    height: 200px;
+    background-size: 100% 100% !important;
+    background-image: url('sucai/rightbj.png');
+}
+
+.leftbottomnav>div:nth-child(2)>div {
+    width: 315px;
+    height: 135px;
+    justify-content: center;
+}
+
+.leftbottomnav>div:nth-child(2)>div>div {
+    width: 135px;
+    height: 135px;
+}
+
+
+
+.rightbottomnav>div:nth-child(2) {
+    align-items: flex-end;
+    width: 315px;
+    height: 200px;
+    background-size: 100% 100% !important;
+    background-image: url('sucai/leftbj.png');
+}
+
+.rightbottomnav>div:nth-child(2)>div {
+    width: 315px;
+    height: 135px;
+    justify-content: center;
+}
+
+.rightbottomnav>div:nth-child(2)>div>div {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 135px;
+    height: 135px;
+}
+
+.lbtfather {
+    position: relative;
+    display: flex;
+    width: 640px;
+    height: 260px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.lbtmax {
+    position: relative;
+    display: flex;
+    /* transform: translate3d(-640px, 0px, 0px); */
+    width: 640*3;
+    height: 100%;
+}
+
+/* ------------------------------------------------ */
+.live {
+    margin-top: 20px;
+    width: 1190px;
+    height: 402px;
+    justify-content: space-around;
+    /* background-color: violet; */
+    background-color: white;
+    border-radius: 34px;
+}
+
+.live img {
+    border: 0;
+    border-radius: 10px;
+}
+
+.lives {
+    justify-content: space-around;
+    width: 355px;
+    height: 235px;
+}
+
+.live1 {
+    justify-content: center;
+    width: 355px;
+    height: 402px;
+}
+
+
+/* ------------------------------------------------ */
+.commodity {
+    margin-top: 20px;
+    padding: 0 18px;
+    width: 1190px;
+    height: 2800px;
+    background-color:white;
+    border-radius: 34px;
+}
+.cn{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cn>a:hover{
+    background: #fff;
+    box-shadow: 0 19px 39px 0 rgba(0,0,0,.2);
+}
+/* -------------------------------------------------------- */
+.nvaas {
+    position: fixed;
+    display: none;
+    z-index: 101;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+
+}
+
+.nvaas>div {
+    align-items: center;
+}
+
+#uu {
+    border-radius: 50px;
+    width: 600px;
+    height: 44px;
+    background-color: #fff;
+    border: 1px solid red;
+    outline: none;
+    /* border: none; */
+}
+
+.uu {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 73px;
+    height: 34px;
+    right: 13px;
+    top: 5px;
+    background-color: red;
+    border-radius: 50px;
+}
+
+/* ------------------------------ */
+.cebian {
+    position: absolute;
+    font-size: 12px;
+    z-index: 99;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    /* overflow: hidden; */
+    border-radius: 10px;
+    right: -55px;
+    top: 530px;
+    width: 52px;
+    height: 152px;
+}
+
+.cebian>div {
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 150px;
+}
+
+.cebian>div>div {
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    /* border: 1px solid red; */
+    border-top: 1px solid #ccc;
+    width: 50px;
+    height: 50px;
+}
